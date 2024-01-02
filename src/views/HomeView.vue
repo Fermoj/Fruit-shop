@@ -3,7 +3,7 @@ import HeroSlider from "../components/HeroSlider.vue";
 import ProductSection from "../components/ProductSection.vue";
 </script>
 <template>
-  <div :style="{ backgroundImage: 'url(img/background-gradient.png)' }">
+  <div :style="{ backgroundImage: 'url(img/background-gradient.png)', backgroundSize: 'cover' }">
     <HeroSlider />
     <p class="title-hero">{{ titleHero }}</p>
     <SliderImage />
